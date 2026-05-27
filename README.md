@@ -62,7 +62,7 @@ Sau khi đã có Unity Hub, tiến hành thêm project vừa tải về vào Uni
 
 ### Hình 1: Bấm Add và chọn Add project from disk
 
-![Hình 1: Add project from disk](docs/images/hinh-1-add-project-from-disk.svg)
+![Hình 1: Add project from disk](docs/images/hinh-1-add-project-from-disk.png)
 
 Trong Unity Hub:
 
@@ -72,7 +72,7 @@ Trong Unity Hub:
 
 ### Hình 2: Chọn thư mục vừa giải nén
 
-![Hình 2: Chọn thư mục vừa giải nén](docs/images/hinh-2-chon-thu-muc-giai-nen.svg)
+![Hình 2: Chọn thư mục vừa giải nén](docs/images/hinh-2-chon-thu-muc-giai-nen.png)
 
 Ở cửa sổ chọn thư mục:
 
@@ -89,7 +89,7 @@ Lưu ý: chọn thư mục project, không chọn riêng thư mục `Assets`.
 
 ### Hình 3: Chọn project Escape... để mở
 
-![Hình 3: Chọn project Escape để mở](docs/images/hinh-3-chon-project-escape.svg)
+![Hình 3: Chọn project Escape để mở](docs/images/hinh-3-chon-project-escape.png)
 
 Sau khi add xong, Unity Hub sẽ hiện project trong danh sách.
 
@@ -101,7 +101,7 @@ Lần đầu mở sẽ hơi lâu vì Unity phải import lại toàn bộ asset.
 
 ### Hình 4: Vào Assets > Scenes và chọn scene cần xem
 
-![Hình 4: Chọn scene trong Assets Scenes](docs/images/hinh-4-chon-scene.svg)
+![Hình 4: Chọn scene trong Assets Scenes](docs/images/hinh-4-chon-scene.png)
 
 Sau khi Unity mở project:
 
