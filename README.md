@@ -99,6 +99,8 @@ Sau khi add xong, Unity Hub sẽ hiện project trong danh sách.
 
 Lần đầu mở sẽ hơi lâu vì Unity phải import lại toàn bộ asset.
 
+Lưu ý: Khi mở project, Unity Hub thường sẽ tự đề xuất phiên bản Unity phù hợp với dự án. Chỉ cần làm theo đề xuất đó để cài/mở đúng phiên bản. Lần đầu bật game lên có thể mất thời gian khá lâu vì Unity phải tải package, import asset và tạo lại dữ liệu project.
+
 ### Hình 4: Vào Assets > Scenes và chọn scene cần xem
 
 ![Hình 4: Chọn scene trong Assets Scenes](docs/images/hinh-4-chon-scene.png)
