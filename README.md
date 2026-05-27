@@ -196,3 +196,4 @@ Assets/ChessKnightImported/Scripts/BoardManager.cs    Bàn chơi mini-game quân
 Assets/DeliveryOrderMiniGameManager.cs           Quản lý mini-game giao hàng
 Assets/scr logo1/QuanLyXepHinh.cs                Quản lý màn xếp hình/logo
 ```
+Lưu ý khi chơi: Tại màn chơi shipper khi ăn vật phẩm thứ 3 và đưa đến đích sẽ có jumpscare
