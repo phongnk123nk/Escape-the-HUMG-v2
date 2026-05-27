@@ -87,13 +87,13 @@ Escape-the-HUMG-v2-main
 
 Lưu ý: chọn thư mục project, không chọn riêng thư mục `Assets`.
 
-### Hình 3: Chọn project Escape... để mở
+### Hình 3: Chọn project Escape The HUMG để mở
 
-![Hình 3: Chọn project Escape the HUMG main để mở](docs/images/hinh-3-chon-project-escape.png)
+![Hình 3: Chọn project Escape The HUMG để mở](docs/images/hinh-3-chon-project-escape.png)
 
 Sau khi add xong, Unity Hub sẽ hiện project trong danh sách.
 
-1. Tìm project có tên bắt đầu bằng **Escape-the-HUMG...**.
+1. Tìm project có tên **Escape-the-HUMG-v2-main** hoặc tên bắt đầu bằng **Escape The HUMG**.
 2. Kiểm tra cột **Editor version** là Unity `6000.3.9f1` hoặc gần đúng bản đó.
 3. Bấm vào tên project để mở.
 
@@ -127,3 +127,19 @@ main menu.unity
 ```
 
 Sau khi mở scene, bấm nút **Play** ở phía trên Unity để chạy game.
+
+Ghi chú nhanh về các scene chính:
+
+```text
+main menu.unity          Màn hình menu chính của game
+room1.unity              Màn/phòng đầu tiên sau menu
+hanh lang 1.unity        Khu vực hành lang 1
+hanh lang 2.unity        Khu vực hành lang 2
+hanh lang 3.unity        Khu vực hành lang 3
+PhongThiNghiem.unity     Phòng thí nghiệm
+PhongTinHoc.unity        Phòng tin học
+BangXepHinh.unity        Màn xếp hình
+GOODENDING.unity         Màn good ending
+ending 1.unity           Màn ending khác
+ESC.unity                Màn/menu ESC
+```
