@@ -1,0 +1,15 @@
+<svg width="980" height="440" viewBox="0 0 980 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="440" rx="16" fill="#111827"/>
+  <rect x="70" y="70" width="840" height="300" rx="14" fill="#181c22" stroke="#374151" stroke-width="2"/>
+  <text x="100" y="126" fill="#f9fafb" font-family="Arial, sans-serif" font-size="34" font-weight="700">Unity Hub - Projects</text>
+  <rect x="650" y="112" width="120" height="54" rx="10" fill="#1f2937" stroke="#60a5fa" stroke-width="3"/>
+  <text x="688" y="147" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Add</text>
+  <path d="M744 133 L760 133 L752 145 Z" fill="#ffffff"/>
+  <rect x="650" y="176" width="260" height="74" rx="12" fill="#1f2937" stroke="#2563eb" stroke-width="3"/>
+  <text x="696" y="222" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Add project from disk</text>
+  <rect x="782" y="112" width="128" height="54" rx="10" fill="#0b72d9"/>
+  <text x="808" y="147" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">New project</text>
+  <path d="M650 150 C520 200 520 228 646 214" stroke="#22c55e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M646 214 L622 202 M646 214 L622 228" stroke="#22c55e" stroke-width="6" stroke-linecap="round"/>
+  <text x="100" y="318" fill="#d1d5db" font-family="Arial, sans-serif" font-size="26">Bấm Add → Add project from disk</text>
+</svg>
