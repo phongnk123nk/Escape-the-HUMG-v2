@@ -1,17 +1,53 @@
 # Escape The HUMG
 
-Đây là project game Unity của **Escape The HUMG**. Repo này đã bao gồm mã nguồn, scene, script, hình ảnh, video nhỏ, prefab, package và toàn bộ file `.meta` cần thiết để tải về mở lại trong Unity.
+Đây là project game Unity của **Escape The HUMG**. README này hướng dẫn từ bước tải repo về máy, cài đúng Unity, thêm project vào Unity Hub, mở scene chính và chạy game local.
+
+Repo này đã bao gồm mã nguồn, scene, script, hình ảnh, video nhỏ, prefab, package và toàn bộ file `.meta` cần thiết để mở lại trong Unity.
 
 ![Tải project từ GitHub](docs/images/huong-dan-tai-github.svg)
 
-## 1. Cần cài những gì?
+## 1. Tải project từ GitHub về máy
 
-Trước khi mở project, máy cần có:
+Link repo:
+
+```text
+https://github.com/phongnk123nk/Escape-the-HUMG-v2
+```
+
+Cách tải bằng ZIP:
+
+1. Mở link repo trên GitHub.
+2. Bấm nút **Code** màu xanh.
+3. Chọn **Download ZIP**.
+4. Chờ tải xong file ZIP.
+5. Giải nén file ZIP ra một thư mục dễ tìm, ví dụ:
+
+```text
+D:\UnityProjects\Escape-the-HUMG-v2
+```
+
+Không mở project trực tiếp trong file ZIP. Phải giải nén trước rồi mới add vào Unity Hub.
+
+Sau khi giải nén, bên trong thư mục project phải có ít nhất 3 thư mục này:
+
+```text
+Assets
+Packages
+ProjectSettings
+```
+
+Nếu thấy 3 thư mục trên thì đã tải đúng source Unity project.
+
+## 2. Cài Unity Hub và Unity Editor
+
+![Cài Unity bằng Unity Hub](docs/images/cai-unity-hub.svg)
+
+Máy cần có:
 
 - **Windows 10 hoặc Windows 11**
 - **Unity Hub**
 - **Unity Editor 6000.3.9f1**
-- Internet trong lần mở đầu tiên để Unity tải package theo file `Packages/manifest.json`
+- Internet trong lần mở đầu tiên để Unity tải package theo `Packages/manifest.json`
 
 Project này được tạo bằng đúng phiên bản:
 
@@ -21,45 +57,21 @@ Unity 6000.3.9f1
 
 Nên dùng đúng bản này để tránh lỗi package, lỗi scene, lỗi render hoặc Unity tự nâng cấp project.
 
-## 2. Cài Unity đúng phiên bản
+Các bước cài:
 
-![Cài Unity bằng Unity Hub](docs/images/cai-unity-hub.svg)
-
-Làm theo các bước sau:
-
-1. Mở **Unity Hub**.
-2. Vào tab **Installs**.
-3. Bấm **Install Editor**.
-4. Tìm và cài **Unity 6000.3.9f1**.
-5. Nếu Unity Hub không hiện đúng bản này, hãy vào **Unity Download Archive**, tìm `6000.3.9f1`, rồi bấm **Install with Unity Hub**.
+1. Tải và cài **Unity Hub** từ trang chủ Unity.
+2. Mở **Unity Hub**.
+3. Vào tab **Installs**.
+4. Bấm **Install Editor**.
+5. Tìm và cài **Unity 6000.3.9f1**.
+6. Nếu Unity Hub không hiện đúng bản này, hãy vào **Unity Download Archive**, tìm `6000.3.9f1`, rồi bấm **Install with Unity Hub**.
 
 Khi cài module, nếu chỉ mở project và bấm Play trong Editor thì không cần cài thêm gì đặc biệt. Nếu muốn build game cho người khác chơi, nên cài thêm:
 
 - **Windows Build Support (IL2CPP)** nếu muốn build file `.exe`
 - **WebGL Build Support** nếu muốn build bản chơi trên trình duyệt
 
-## 3. Tải project từ GitHub
-
-Link repo:
-
-```text
-https://github.com/phongnk123nk/escape-the-humg
-```
-
-Cách tải:
-
-1. Mở link repo trên GitHub.
-2. Bấm nút **Code** màu xanh.
-3. Chọn **Download ZIP**.
-4. Giải nén file ZIP ra một thư mục dễ tìm, ví dụ:
-
-```text
-D:\UnityProjects\escape-the-humg
-```
-
-Không mở project trực tiếp trong file ZIP. Bắt buộc phải giải nén trước.
-
-## 4. Mở project bằng Unity Hub
+## 3. Add project vào Unity Hub
 
 ![Mở project bằng Unity Hub](docs/images/mo-project-unity-hub.svg)
 
@@ -76,12 +88,22 @@ Packages
 ProjectSettings
 ```
 
-5. Bấm **Open**.
-6. Chờ Unity import toàn bộ asset.
+Ví dụ đường dẫn đúng:
+
+```text
+D:\UnityProjects\Escape-the-HUMG-v2
+```
+
+Không chọn nhầm thư mục cha, cũng không chọn riêng thư mục `Assets`.
+
+5. Bấm **Add Project** hoặc **Open**.
+6. Trong Unity Hub, chọn project vừa thêm.
+7. Mở project bằng Unity **6000.3.9f1**.
+8. Chờ Unity import toàn bộ asset.
 
 Lần đầu mở project sẽ hơi lâu vì Unity phải tự tạo lại thư mục `Library`.
 
-## 5. Chạy game trong Unity
+## 4. Chạy game local trên máy
 
 ![Chạy game trong Unity](docs/images/chay-game-unity.svg)
 
@@ -106,6 +128,18 @@ Scene đầu tiên của game là:
 ```text
 Assets/Scenes/main menu.unity
 ```
+
+Nếu Unity hỏi save scene hoặc import package trong lần mở đầu, hãy chờ Unity xử lý xong trước khi bấm Play.
+
+## 5. Nếu muốn tải bằng Git thay vì ZIP
+
+Nếu máy đã cài Git, có thể clone bằng lệnh:
+
+```bash
+git clone https://github.com/phongnk123nk/Escape-the-HUMG-v2.git
+```
+
+Sau đó mở thư mục `Escape-the-HUMG-v2` bằng Unity Hub như bước 3.
 
 ## 6. Danh sách scene trong Build Settings
 
@@ -133,7 +167,7 @@ Nếu build game, hãy đảm bảo `main menu.unity` đứng đầu danh sách 
 Các phần quan trọng của project nằm ở những vị trí sau:
 
 ```text
-escape-the-humg/
+Escape-the-HUMG-v2/
 ├── Assets/              Mã nguồn, scene, hình ảnh, prefab, audio, video của game
 ├── Packages/            Danh sách package Unity cần dùng
 ├── ProjectSettings/     Cấu hình project Unity
@@ -448,17 +482,7 @@ Builds/Windows
 
 Người chơi chỉ cần giải nén và chạy file `.exe`, không cần cài Unity.
 
-## 11. Clone bằng Git
-
-Nếu không tải ZIP mà dùng Git, chạy lệnh:
-
-```bash
-git clone https://github.com/phongnk123nk/escape-the-humg.git
-```
-
-Sau đó mở thư mục vừa clone bằng Unity Hub.
-
-## 12. Ghi chú
+## 11. Ghi chú
 
 - Không xóa file `.meta`.
 - Không cần tải hoặc copy thư mục `Library`.
