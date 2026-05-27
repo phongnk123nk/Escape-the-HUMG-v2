@@ -136,6 +136,19 @@ Sau khi mở scene, bấm nút **Play** ở phía trên Unity để chạy game.
 
 Sau khi đã mở scene cần xem, nhìn lên thanh công cụ phía trên Unity và bấm nút **Play**. Đây là nút hình tam giác ở giữa phía trên màn hình Unity. Bấm nút này để chạy thử game ngay trong Unity.
 
+### Hình 6: Chọn object để xem Component
+
+![Hình 6: Chọn object để xem Component](docs/images/hinh-6-xem-component.png)
+
+Trong Unity, muốn xem hoặc chỉnh thông tin của một object:
+
+1. Nhìn sang bảng **Hierarchy** ở bên trái.
+2. Bấm chọn object cần xem, ví dụ `QuanLyXepHinh`.
+3. Nhìn sang bảng **Inspector** ở bên phải.
+4. Các thông tin như **Transform**, **Script**, biến cấu hình và Component của object sẽ hiện ở bảng **Inspector**.
+
+Đây là nơi dùng để xem object đang gắn script nào và chỉnh các giá trị public của script trong Unity.
+
 Ghi chú nhanh về các scene chính:
 
 ```text
