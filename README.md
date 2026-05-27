@@ -57,14 +57,44 @@ Unity 6000.3.9f1
 
 Nên dùng đúng bản này để tránh lỗi package, lỗi scene, lỗi render hoặc Unity tự nâng cấp project.
 
-Các bước cài:
+### 2.1. Tải Unity Hub ở đâu?
 
-1. Tải và cài **Unity Hub** từ trang chủ Unity.
-2. Mở **Unity Hub**.
-3. Vào tab **Installs**.
-4. Bấm **Install Editor**.
-5. Tìm và cài **Unity 6000.3.9f1**.
-6. Nếu Unity Hub không hiện đúng bản này, hãy vào **Unity Download Archive**, tìm `6000.3.9f1`, rồi bấm **Install with Unity Hub**.
+Tải Unity Hub từ trang chính thức của Unity:
+
+```text
+https://unity.com/download
+```
+
+Cách tải:
+
+1. Mở link `https://unity.com/download`.
+2. Bấm **Download for Windows** hoặc **Download Unity Hub**.
+3. Chạy file cài đặt Unity Hub vừa tải về.
+4. Cài xong thì mở **Unity Hub**.
+
+Nếu trang yêu cầu đăng nhập, hãy đăng nhập hoặc tạo tài khoản Unity miễn phí.
+
+### 2.2. Cài Unity Editor 6000.3.9f1
+
+Sau khi đã có Unity Hub:
+
+1. Mở **Unity Hub**.
+2. Vào tab **Installs**.
+3. Bấm **Install Editor**.
+4. Tìm và cài **Unity 6000.3.9f1**.
+
+Nếu Unity Hub không hiện đúng bản `6000.3.9f1`, vào Unity Download Archive:
+
+```text
+https://unity.com/releases/editor/archive
+```
+
+Sau đó:
+
+1. Tìm phiên bản `6000.3.9f1`.
+2. Bấm **Install with Unity Hub**.
+3. Unity Hub sẽ mở ra và hỏi cài bản đó.
+4. Bấm cài đặt và chờ tải xong.
 
 Khi cài module, nếu chỉ mở project và bấm Play trong Editor thì không cần cài thêm gì đặc biệt. Nếu muốn build game cho người khác chơi, nên cài thêm:
 
