@@ -143,3 +143,35 @@ GOODENDING.unity         Màn good ending
 ending 1.unity           Màn ending khác
 ESC.unity                Màn/menu ESC
 ```
+
+Ghi chú vị trí các script/code trong project:
+
+```text
+Assets/                         Các script chính của game
+Assets/Scripts/                 Script phụ, hiện có EndingCutscene.cs
+Assets/Editor/                  Script chỉ dùng trong Unity Editor để setup scene
+Assets/ChessKnightImported/Scripts/   Script mini-game quân mã
+Assets/DeliveryCarImported/Scenes/    Script mini-game giao hàng/xe
+Assets/ESC/Scripts/             Script menu ESC/pause
+Assets/image/Animation/         Script animation mũi tên
+Assets/scr logo1/               Script màn xếp hình/logo
+```
+
+Một số script quan trọng:
+
+```text
+Assets/MainMenuButtonActions.cs                  Nút ở menu chính
+Assets/HallwayImageNavigator.cs                  Điều hướng hành lang
+Assets/HallwayArrowHotspot.cs                    Vùng bấm/mũi tên hành lang
+Assets/ComputerRoomNavigator.cs                  Logic phòng tin học
+Assets/ComputerRoomHotspot.cs                    Vùng tương tác phòng tin học
+Assets/LabSceneNavigator.cs                      Logic phòng thí nghiệm
+Assets/LabInventorySystem.cs                     Hệ thống kéo/thả đồ
+Assets/LabEquationPuzzleManager.cs               Câu đố phương trình
+Assets/RoomIntroVideoPlayer.cs                   Video intro room1
+Assets/GlobalEscPauseMenu.cs                     Menu tạm dừng
+Assets/ChessKnightImported/Scripts/GameManager.cs     Quản lý mini-game quân mã
+Assets/ChessKnightImported/Scripts/BoardManager.cs    Bàn chơi mini-game quân mã
+Assets/DeliveryOrderMiniGameManager.cs           Quản lý mini-game giao hàng
+Assets/scr logo1/QuanLyXepHinh.cs                Quản lý màn xếp hình/logo
+```
