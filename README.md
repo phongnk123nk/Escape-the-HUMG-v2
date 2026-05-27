@@ -89,7 +89,7 @@ Lưu ý: chọn thư mục project, không chọn riêng thư mục `Assets`.
 
 ### Hình 3: Chọn project Escape... để mở
 
-![Hình 3: Chọn project Escape để mở](docs/images/hinh-3-chon-project-escape.png)
+![Hình 3: Chọn project Escape the HUMG main để mở](docs/images/hinh-3-chon-project-escape.png)
 
 Sau khi add xong, Unity Hub sẽ hiện project trong danh sách.
 
