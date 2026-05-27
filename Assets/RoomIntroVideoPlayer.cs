@@ -84,8 +84,12 @@ public class RoomIntroVideoPlayer : MonoBehaviour
         videoPlayer.isLooping = false;
         videoPlayer.waitForFirstFrame = true;
         videoPlayer.renderMode = VideoRenderMode.RenderTexture;
-        videoPlayer.audioOutputMode = VideoAudioOutputMode.Direct;
+        videoPlayer.audioOutputMode = VideoAudioOutputMode.None;
+        videoPlayer.controlledAudioTrackCount = 1;
+        videoPlayer.SetDirectAudioMute(0, true);
+        videoPlayer.SetDirectAudioVolume(0, 0f);
         videoPlayer.clip = introClip;
+        videoPlayer.EnableAudioTrack(0, false);
 
         renderTexture = new RenderTexture(1920, 1080, 0, RenderTextureFormat.ARGB32);
         renderTexture.Create();

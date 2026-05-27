@@ -229,14 +229,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GlobalEscPauseMenu
   mainMenuSceneName: main menu
+  scenesDisablePause:
+  - main menu
   pauseKey: 27
   pauseMenuPanel: {fileID: 1182819217}
   pauseCanvasGroup: {fileID: 1182819219}
   continueButton: {fileID: 1820873423}
   exitToMenuButton: {fileID: 1962941878}
-  titleText: TẠM DỪNG
-  continueText: TIẾP TỤC
-  exitText: THOÁT
+  titleText: "T\u1EA0M D\u1EEANG"
+  continueText: "TI\u1EBEP T\u1EE4C"
+  exitText: "THO\xC1T"
   fadeDuration: 0.15
 --- !u!114 &78825149
 MonoBehaviour:
@@ -1806,7 +1808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THOÁT
+  m_Text: "THO\xC1T"
 --- !u!222 &1756396105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2366,7 +2368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TIẾP TỤC
+  m_Text: "TI\u1EBEP T\u1EE4C"
 --- !u!222 &2066943161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2419,7 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7947f5dc0b64b44a8f50d52b0aa8a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomIntroVideoPlayer
-  introClip: {fileID: 32900000, guid: 8bc5790ce3e321b47a90df2efb866af1, type: 3}
+  introClip: {fileID: 32900000, guid: 14c81bd21dfd0bb458dfcdf08bfbd345, type: 3}
   playOnStart: 1
   blackScreenDelay: 0.15
   fadeFromBlackDuration: 1.2
@@ -2487,14 +2489,14 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 48
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TẠM DỪNG
+  m_Text: "T\u1EA0M D\u1EEANG"
 --- !u!222 &2124269314
 CanvasRenderer:
   m_ObjectHideFlags: 0

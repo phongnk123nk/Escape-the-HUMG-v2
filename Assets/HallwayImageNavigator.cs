@@ -171,7 +171,10 @@ public class HallwayImageNavigator : MonoBehaviour
         transitionVideoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
         transitionVideoPlayer.targetCamera = cameraToUse;
         transitionVideoPlayer.aspectRatio = VideoAspectRatio.FitInside;
-        transitionVideoPlayer.audioOutputMode = VideoAudioOutputMode.Direct;
+        transitionVideoPlayer.audioOutputMode = VideoAudioOutputMode.None;
+        transitionVideoPlayer.controlledAudioTrackCount = 1;
+        transitionVideoPlayer.SetDirectAudioMute(0, true);
+        transitionVideoPlayer.SetDirectAudioVolume(0, 0f);
         transitionVideoPlayer.errorReceived += OnVideoError;
         if (HasStreamingVideoFile(streamingAssetsVideoFileName))
         {
@@ -184,6 +187,7 @@ public class HallwayImageNavigator : MonoBehaviour
             transitionVideoPlayer.clip = videoClip;
         }
 
+        transitionVideoPlayer.EnableAudioTrack(0, false);
         transitionVideoPlayer.loopPointReached += OnVideoEnded;
         transitionVideoPlayer.Play();
         yield return FadeScreen(0f, fadeInDuration);
