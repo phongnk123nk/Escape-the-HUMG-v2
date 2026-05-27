@@ -33,3 +33,25 @@ ProjectSettings
 Nếu có đủ 3 thư mục trên thì đã tải đúng dự án Unity.
 
 Không mở trực tiếp project trong file ZIP. Phải giải nén ra trước.
+
+## 2. Hướng dẫn tải Unity Hub
+
+Unity Hub là phần mềm dùng để cài Unity và mở project Unity.
+
+Làm theo các bước sau:
+
+1. Mở trang tải Unity:
+
+```text
+https://unity.com/download
+```
+
+2. Bấm **Download for Windows** hoặc **Download Unity Hub**.
+
+3. Chờ file cài đặt tải xong.
+
+4. Mở file vừa tải về và cài Unity Hub.
+
+5. Cài xong thì mở **Unity Hub**.
+
+Nếu Unity yêu cầu đăng nhập, hãy đăng nhập bằng tài khoản Unity hoặc tạo tài khoản miễn phí.
