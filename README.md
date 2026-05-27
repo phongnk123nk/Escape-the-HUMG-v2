@@ -130,6 +130,12 @@ main menu.unity
 
 Sau khi mở scene, bấm nút **Play** ở phía trên Unity để chạy game.
 
+### Hình 5: Ấn nút Play để chơi thử game trên Unity
+
+![Hình 5: Ấn nút Play để chơi thử game trên Unity](docs/images/hinh-5-play-game.png)
+
+Sau khi đã mở scene cần xem, nhìn lên thanh công cụ phía trên Unity và bấm nút **Play**. Đây là nút hình tam giác ở giữa phía trên màn hình Unity. Bấm nút này để chạy thử game ngay trong Unity.
+
 Ghi chú nhanh về các scene chính:
 
 ```text
